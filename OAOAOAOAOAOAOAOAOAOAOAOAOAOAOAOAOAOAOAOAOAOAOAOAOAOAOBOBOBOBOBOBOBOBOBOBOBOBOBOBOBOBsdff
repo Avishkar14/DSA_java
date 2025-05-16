@@ -1,0 +1,51 @@
+[33mcommit b5d0a7ba6b3b8f4ec5a8baa9f5cdac785edf646f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mFirst_prog[m[33m, [m[1;31morigin/First_prog[m[33m)[m
+Merge: e9ea5de 62e20b1
+Author: Avishkar S <avi.k.shelke@gmail.com>
+Date:   Thu May 15 21:41:24 2025 +0530
+
+    Merge branch 'master' of https://github.com/Avishkar14/DSA_java into First_prog
+
+[33mcommit e9ea5dec8b76e1119d88b4a78aa80bef1df0b73c[m
+Author: Avishkar S <avi.k.shelke@gmail.com>
+Date:   Thu May 15 20:48:21 2025 +0530
+
+    new basic programs added .
+
+[33mcommit f81635f50dec88756a0a940cc4bffd617f31e2a8[m
+Author: Avishkar S <avi.k.shelke@gmail.com>
+Date:   Thu May 15 17:24:56 2025 +0530
+
+    first prog files added
+
+[33mcommit 9d6cd9798561f2c2668b743e9060721ac05b7e3b[m
+Author: Avishkar S <avi.k.shelke@gmail.com>
+Date:   Thu May 15 17:21:57 2025 +0530
+
+    test
+
+[33mcommit 62e20b166930abbe9f7925653ef57de78d68aa10[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: e5b5cd6 394711a
+Author: Avishkar14 <146617914+Avishkar14@users.noreply.github.com>
+Date:   Wed May 14 12:19:58 2025 +0530
+
+    Merge pull request #1 from Avishkar14/recent
+    
+    Recent
+
+[33mcommit 394711af448e926af01178c49e86405985e4afe9[m[33m ([m[1;31morigin/recent[m[33m)[m
+Author: Avishkar S <avi.k.shelke@gmail.com>
+Date:   Wed May 14 11:57:43 2025 +0530
+
+    uvw.txt file modified
+
+[33mcommit 6cdb4289b632d487df68447b2133770c1de014e2[m
+Author: Avishkar S <avi.k.shelke@gmail.com>
+Date:   Wed May 14 11:55:37 2025 +0530
+
+    uvw.txt file created
+
+[33mcommit e5b5cd638a9f7045fa795fa43e53f56a4d747d1b[m
+Author: Avishkar S <avi.k.shelke@gmail.com>
+Date:   Tue May 13 20:47:38 2025 +0530
+
+    new file added
