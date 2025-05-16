@@ -1,0 +1,9 @@
+assign 1 :
+hcf , lcm 
+keep taking input until user enters 'x' then add no.s
+
+assign 2:
+palindrome 
+armstrong no
+
+whole assign 3:
