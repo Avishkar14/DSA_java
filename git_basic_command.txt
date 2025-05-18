@@ -1,0 +1,29 @@
+  cd Desktop/Java\ prog/JAVA\ dsa 
+
+$ git status
+ 
+$ git add . 
+
+$ git stash
+
+$ git status
+ 
+$ git branch Fuctions
+ 
+$ git checkout Fuctions
+ 
+$ git stash pop
+ 
+$ git add .
+
+$ git status
+ 
+$ git commit -m " adding functions , conditionals programs"
+ 
+$ git push origin Fuctions
+ 
+$ git checkout master
+ 
+$ git merge Fuctions
+ 
+$
