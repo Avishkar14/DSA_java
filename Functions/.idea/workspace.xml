@@ -32,9 +32,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Armstrong_Num.executor": "Run",
     "Application.Main.executor": "Run",
+<<<<<<< Updated upstream
     "Application.Var_args.executor": "Run",
     "Application.shadowing.executor": "Run",
+=======
+    "Application.Prime_no.executor": "Run",
+>>>>>>> Stashed changes
     "Application.swapping.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
