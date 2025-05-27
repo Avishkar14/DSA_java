@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+Conditional_Progs
     <list default="true" id="3038bd07-fd61-4e9c-8f78-6cf4d8126c91" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+
+    <list default="true" id="3038bd07-fd61-4e9c-8f78-6cf4d8126c91" name="Changes" comment="" />
+ master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +43,11 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+ Conditional_Progs
     "git-widget-placeholder": "master",
+
+    "git-widget-placeholder": "Conditional__Progs",
+master
     "onboarding.tips.debug.path": "C:/Users/Admin/Desktop/Java prog/JAVA dsa/Conditionals/src/Main.java"
   }
 }]]></component>
