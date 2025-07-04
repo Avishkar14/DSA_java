@@ -1,0 +1,17 @@
+public class MinNo {
+    public static void main(String[] args){
+        int[ ] arr_in={ 12, 23 , 31 , 2 , 10 , 16 };
+        System.out.println(Min( arr_in ));
+
+    }
+     public static int Min(int[] arr){
+        int min = arr[0];
+        for (int i = 1 ; i < arr.length ; i++){
+
+            if( arr[i] < min){
+                min = arr[i];
+             }
+        }
+        return min;
+     }
+}
