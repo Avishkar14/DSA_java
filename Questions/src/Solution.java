@@ -1,13 +1,16 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
+Questions
+Updated upstream
+Updated upstream
+
 import java.util.Scanner;
 
->>>>>>> Stashed changes
-=======
+ Stashed changes
+
 import java.util.Scanner;
 
->>>>>>> Stashed changes
+ Stashed changes
+
+master
 class Solution {
     public static int subtractProductAndSum(int n) {
         int sum=0;

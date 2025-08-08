@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0751284b-3038-47a1-959b-fc6020d7ddb1" name="Changes" comment="" />
+    <list default="true" id="0751284b-3038-47a1-959b-fc6020d7ddb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,31 +26,31 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+    &quot;associatedIndex&quot;: 2
+  }</component>
   <component name="ProjectId" id="2xU7MrEOSei7zHqwZnISJcB9LjR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Input.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MultiDimArr.executor": "Coverage",
-    "Application.MultiDimentionalArr.executor": "Run",
-    "Application.PassingViaFxn.executor": "Run",
-    "Application.UserIn2Darr.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Array",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/Java prog/JAVA dsa/Arrays",
-    "onboarding.tips.debug.path": "C:/Users/Admin/Desktop/Java prog/JAVA dsa/Arrays/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
-  }
-}]]></component>
+    "keyToString": {
+      "Application.Input.executor": "Run",
+      "Application.Main.executor": "Run",
+      "Application.MultiDimArr.executor": "Coverage",
+      "Application.MultiDimentionalArr.executor": "Run",
+      "Application.PassingViaFxn.executor": "Run",
+      "Application.UserIn2Darr.executor": "Run",
+      "ModuleVcsDetector.initialDetectionPerformed": "true",
+      "RunOnceActivity.ShowReadmeOnStart": "true",
+      "RunOnceActivity.git.unshallow": "true",
+      "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+      "git-widget-placeholder": "Array", <!-- or "master", pick the one that matches your branch preference -->
+      "last_opened_file_path": "C:/Users/Admin/Desktop/Java prog/JAVA dsa/Arrays",
+      "onboarding.tips.debug.path": "C:/Users/Admin/Desktop/Java prog/JAVA dsa/Arrays/src/Main.java",
+      "settings.editor.selected.configurable": "preferences.pluginManager"
+    }
+  }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
