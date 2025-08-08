@@ -1,4 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+import java.util.Scanner;
+
+>>>>>>> Stashed changes
 =======
 import java.util.Scanner;
 
