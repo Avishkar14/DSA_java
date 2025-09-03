@@ -3,9 +3,9 @@ import java.util.Arrays;
 // NEEDS IMPROVEMENT
 public class Q_1_TwoSum {
         public static void main(String[] args) {
-            int[] nums = {2,7,11,15};
-            int target = 9;
-            System.out.println(Arrays.toString(twoSum( nums , target)));
+            int[] nums = {3, 2, 3};
+            int target = 5;
+            System.out.println(Arrays.toString(twoSum_2( nums , target)));
         }
         public  static int[] twoSum(int[] nums, int target) {
             int[] ans = new int[2];
@@ -24,4 +24,25 @@ public class Q_1_TwoSum {
             }
             return ans;
         }
+    public  static int[] twoSum_2(int[] nums, int target){
+        int[] ans = new int[2];
+        int sum = 0;
+        int flag = 0;
+        int k = 0;
+        for( int i = 0; i < nums.length ; i++){
+
+            for( int j = i; j < nums.length ; j++){
+                if( i != j){
+                    sum = nums[i] + nums[j];
+                    if( sum == target ){
+                        ans[0] = i;
+                        ans[1] = j;
+                        return ans;
+                    }
+                }
+            }
+
+        }
+        return ans;
+    }
 }
