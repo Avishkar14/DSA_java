@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25767c90-37c5-4c7e-94e3-4e991fe5571f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Questions/src/BS_Ceiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Questions/src/Q_1095_FindInMountainArrLowestIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Questions/src/Q_1365_totalSmallerNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Questions/src/Q_1732_FindHighestAlt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Questions/src/Q_33_SearchInRotatedArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Questions/src/Q_852_PeakMountainIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questions/src/Q_54.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questions/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Questions/src/Solution.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="34EZ5RKlaEwcHFlt4gMB4pX8s2L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Questions",
+    "onboarding.tips.debug.path": "C:/Users/Admin/Desktop/Java prog/JAVA dsa/SelectionSort/src/Main.java"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25767c90-37c5-4c7e-94e3-4e991fe5571f" name="Changes" comment="" />
+      <created>1760780512412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760780512412</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>3</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
