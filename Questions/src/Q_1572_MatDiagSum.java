@@ -11,18 +11,16 @@ class Q_1572_MatDiagSum {
     public static int diagonalSum(int[][] mat) {
         int sum = 0;
         int start = 0;
-        int end = mat.length-1;
+        int end = mat.length - 1;
         for (int i = 0; i < mat.length; i++) {
 
-            if(start == end){
+            if (start == end) {
                 sum += mat[start][end];
-            }
-            else{
+            } else {
                 sum += mat[i][start] + mat[i][end];
             }
             start++;
             end--;
-
         }
         return sum;
     }
