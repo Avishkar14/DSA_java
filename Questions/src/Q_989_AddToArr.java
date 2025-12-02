@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -5,9 +6,10 @@ import java.util.List;
 
 class Q_989_AddToArr {
     public static void main(String[] args) {
-        int[] num = { 9,9,9,9,9,9,9,9,9,9};
-        System.out.println(addToArrayForm(num,1));
+        int[] num = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
+        System.out.println(addToArrayForm(num, 1));
     }
+
     public static List<Integer> addToArrayForm(int[] num, int k) {
         long sum = 0;
         long pow = 1;    //initially pow is 1
@@ -16,17 +18,17 @@ class Q_989_AddToArr {
         //     sum += num[i] * (10 ** (num.length - i - 1));
 
         // }
-        for( int i = num.length - 1; i >= 0; i--){
+        for (int i = num.length - 1; i >= 0; i--) {
 
-            sum += num[i]*pow;
+            sum += num[i] * pow;
             pow = pow * 10;
         }
         sum += k;
 
         int ansLength = 0;
         // pow = 1;
-        for( int i = num.length; i < num.length*5; i++){
-            if( sum / (pow/10) < 10){
+        for (int i = num.length; i < num.length * 5; i++) {
+            if (sum / (pow / 10) < 10) {
                 ansLength = i;
                 break;
             }
@@ -35,7 +37,7 @@ class Q_989_AddToArr {
 
 //        List<Long> ans = new ArrayList<Long>();
         List<Integer> Out = new ArrayList<>();
-        for(int i = 0; i < ansLength ; i++){
+        for (int i = 0; i < ansLength; i++) {
 //            ans.add(sum % 10) ;
 //            Out.add(ans.get(i).intValue());
 //            sum = sum/10;
