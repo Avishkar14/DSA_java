@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Q_217_ContnDupli {
     //psvm
     public static boolean containsDuplicate(int[] nums) {
