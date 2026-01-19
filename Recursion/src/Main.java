@@ -20,14 +20,14 @@ public class Main {
 //    Using one fxn , exact recursion used
     static void print(int n){
 //        Base condition to stop recursive calls and avoid stack overflow
-        if( n == 3){
+        if( n == 1){
             System.out.println(n);
             return;
         }
 
         System.out.println(n);
 //        same fxn called again
-        print(n + 1);
+        print(n - 1);
 
     }
 }
