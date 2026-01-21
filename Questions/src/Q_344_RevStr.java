@@ -5,7 +5,7 @@ class Q_344_RevStr {
         helper( s, 0);
     }
 
-    void helper( char[] s, int index){
+    static void helper( char[] s, int index){
 
         if( index == (s.length +1)/2){
             return;

@@ -3,7 +3,7 @@ class Q_342_PowOf4_Rec {
     public static boolean isPowerOfFour(int n) {
         return helper( n , 0);
     }
-    public boolean helper( int n , int pow ){
+    public static boolean helper( int n , int pow ){
         if( pow == 0){
             if( n == 1){
                 return true;

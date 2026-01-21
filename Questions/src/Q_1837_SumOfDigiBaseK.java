@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Q_1837_SumOfDigiBaseK {
     public static int sumBase(int n, int k) {
         int ans;

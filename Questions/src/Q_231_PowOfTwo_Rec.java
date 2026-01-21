@@ -6,7 +6,7 @@ class Q_231_PowOfTwo_Rec {
         return helper(n , pow);
     }
 
-    boolean helper( int n , int pow){
+    static boolean helper( int n , int pow){
         if( n < Math.pow(2 , pow)){
             return false;
         }
