@@ -2,6 +2,7 @@ package LinkedListQ;
 //This has Q : Q 141 - https://leetcode.com/problems/linked-list-cycle/description/
 // Q - count Nodes in cycle
 //Q. 142 - https://leetcode.com/problems/linked-list-cycle-ii/description/
+//Q. 876 - https://leetcode.com/problems/middle-of-the-linked-list/
 
 public class Q_141_LLCycle {
     public static void main(String[] args) {
@@ -81,6 +82,21 @@ public class Q_141_LLCycle {
             sec = sec.next;
         }
         return first;
+    }
+//    Q.876 ) Middle node of LL :
+    ListNode middleNode(ListNode head) {
+        ListNode curr = head;
+        int length = 0;
+        while( curr != null ){
+            curr = curr.next;
+            length++;
+        }
+        curr = head;
+        for( int i = 0; i < length/2; i++){
+            curr = curr.next;
+        }
+
+        return curr;
     }
 
 }
