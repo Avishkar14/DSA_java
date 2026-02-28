@@ -228,18 +228,18 @@ public class LL {
     }
 
     //Needed this for user to use in main and also start the recursion call :
-    public void reverse() {
+    public Node reverseList( Node head) {
 //        Below is for recursion based reverse:======================================
-//        if (head == null) {
-//            return;
-//        }
+        if (head == null) {
+            return head;
+        }
 //        reverse(head);
 
 // Below is for iterative based reverse:======================================
-        if( size < 2){
-            //1 or less node then return same;
-            return;
-        }
+//        if( size < 2){
+//            //1 or less node then return same;
+//            return;
+//        }
 
         Node prev = null;
         Node pres = head;
@@ -255,18 +255,56 @@ public class LL {
             }
         }
         head = prev;
+        return head;
     }
-    private void reverse(Node node){
+    private Node reverse(Node node){
         if( node == tail ){
 //            Base condition :
             head = tail;
-            return;
+            return node;
         }
-        reverse(node.next);
+        Node newHead = reverse(node.next);
 
         tail.next = node;
         tail = node;
         tail.next = null;
+        return newHead;
+    }
+
+    Node MidNode(Node head){
+        Node slow = head, fast = head;
+
+        while(fast != null && fast.next != null){
+            slow = slow.next; //1x speed
+            fast = fast.next.next; //2x speed
+        }
+        return slow;
+
+    }
+
+    public void reorderList(Node head){
+        //First find mid using MidNode() and then reverse after middle node.
+        if( head == null || head.next == null){
+            return;
+        }
+        Node mid = MidNode(head);
+        Node f = head;
+        Node s = reverseList(mid);
+        Node temp = head;
+
+        //Now rearrange them use temp variable also.
+        while( s != null && f != null){
+         temp = f.next;
+         f.next = s;
+         f = temp;
+         temp = s.next;
+         s.next = f;
+         s = temp;
+        }
+        //Need to make tail (f.next) as null:
+        if( f != null){
+            f.next = null;
+        }
     }
 
     public static void main(String[] args) {
@@ -277,7 +315,7 @@ public class LL {
         list1.insertLast(3);
         list1.insertLast(6);
 
-        list2.insertLast(1);
+//        list2.insertLast(1);
         list2.insertLast(2);
         list2.insertLast(4);
         list2.insertLast(5);
@@ -286,6 +324,13 @@ public class LL {
         list2.display();
 
         LL ans = LL.merge_2Lists(list1 , list2);
+        ans.display();
+
+//        ans.reverseList( ans.head);
+//        ans.display();
+//        System.out.println(ans.MidNode(ans.head).value);
+//        System.out.println(ans.head.value);
+        ans.reorderList(ans.head);
         ans.display();
     }
 }
