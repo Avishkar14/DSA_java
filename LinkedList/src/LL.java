@@ -307,6 +307,59 @@ public class LL {
         }
     }
 
+    public Node reverseKGroup(Node head, int k) {
+        if( k <= 1 || head == null || head.next == null){
+            return head;
+        }
+        int i = 1; //to know if no. of nodes are equal to it
+        Node prev = null;
+        Node curr = head;
+        Node next = head.next;
+        Node last = head; //To know the last node of reversed LL
+        Node temp = head; // For traversal purpose
+        Node newEnd = null;
+        Node tempnext = null;
+        while( temp != null){
+            if( i % k == 0){
+                tempnext = temp.next;
+//                last = curr;
+                while( prev != temp ) {
+
+                    //reverse now:
+                    curr.next = prev;
+                    prev = curr;
+                    curr = next;
+                    if (next != null) {
+                        next = next.next;
+                    }
+                }
+                if(last != null)
+                    last.next = curr;
+                if( newEnd!= null){
+                    newEnd.next = prev;
+                }
+                newEnd = last;
+                if( i == k){
+                    //i.e first time then make last head:
+                    head = prev;
+                }
+                temp = tempnext;
+                prev = null;
+                last = curr;
+                i++;
+            }
+            else{
+                //until then iterate:
+                temp = temp.next;
+                i++;
+            }
+
+        }
+        if( newEnd != null)
+            newEnd.next = last; //curr
+        return head;
+    }
+
     public static void main(String[] args) {
         LL list1 = new LL();
         LL list2 = new LL();
