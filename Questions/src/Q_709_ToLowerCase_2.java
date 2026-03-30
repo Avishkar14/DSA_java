@@ -1,4 +1,4 @@
-class Q_709_ToLowerCase {
+class Q_709_ToLowerCase_2 {
     public static String toLowerCase(String s) {
         String ans = "";
         for(int i = 0; i < s.length(); i++){
