@@ -1,3 +1,7 @@
+package StackAndQueueQ;
+
+import java.util.Stack;
+
 class Q_682_BaseballGame {
 /*
 Use Deque instead:

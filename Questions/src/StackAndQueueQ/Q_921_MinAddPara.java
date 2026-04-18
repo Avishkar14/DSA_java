@@ -1,3 +1,7 @@
+package StackAndQueueQ;
+
+import java.util.Stack;
+
 class Q_921_MinAddPara {
     public static int minAddToMakeValid(String s) {
         Stack<Character> stack = new Stack<>();
