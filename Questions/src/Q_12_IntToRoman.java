@@ -27,7 +27,7 @@ class Q_12_IntToRoman {
     }
 
     //method to find normal added roman no.
-    public String findRoman(int n, char[] sym, int[] val){
+    public static String findRoman(int n, char[] sym, int[] val){
         int i = val.length - 1;
         String roman = "";
         while( n > 0){
@@ -43,7 +43,7 @@ class Q_12_IntToRoman {
         return roman;
     }
 
-    public String romanSubs(int n, char[] sym, int[] val){
+    public static String romanSubs(int n, char[] sym, int[] val){
         String roman = "";
         int j = 0;
         

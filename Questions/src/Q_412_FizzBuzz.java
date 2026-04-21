@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Q_412_FizzBuzz {
     public static List<String> fizzBuzz(int n) {
         int i = 1;
