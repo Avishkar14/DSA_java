@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class Q_73_SetMatrixZeroes {
     public static void setZeroes(int[][] matrix) {
         List<List<Integer>> zeroIndexes = new ArrayList<>();
