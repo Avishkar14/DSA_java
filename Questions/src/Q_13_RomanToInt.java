@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Q_13_RomanToInt {
     public static int romanToInt(String s) {
         int num = 0;
